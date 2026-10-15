@@ -1,0 +1,15 @@
+# Captured data NEVER enters git — it stays on this laptop only.
+captures/*
+!captures/.gitkeep
+profiles/*
+!profiles/.gitkeep
+*.har
+*.har.json
+
+# Secrets and environment
+credentials*
+.env*
+
+# Agent / editor state
+.omo/
+node_modules/
